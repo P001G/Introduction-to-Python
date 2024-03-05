@@ -1,0 +1,4 @@
+git add . #This adds all the new work
+git status #This shows the status of the files (added ot committed)
+git commit -m "message" #This communicates a message
+git push origin main
