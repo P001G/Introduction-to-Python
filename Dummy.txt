@@ -12,3 +12,40 @@ friends.sort()
 print(friends)
 friends.reverse()
 print(friends)
+
+
+Continuous Data:
+
+Histogram: Displays the distribution of continuous data.
+Box plot: Shows the distribution, central tendency, and variability of continuous data.
+Density plot: Similar to a histogram but shows a smooth estimate of the distribution.
+Scatter plot: Useful for visualizing relationships between two continuous variables.
+Categorical Data:
+
+Bar plot: Displays the frequency or proportion of different categories.
+Pie chart: Shows the proportion of each category relative to the whole.
+Donut chart: Similar to a pie chart but with a hole in the center, making it easier to compare categories.
+Time Series Data:
+
+Line plot: Useful for visualizing trends and patterns over time.
+Area plot: Similar to a line plot but with the area under the curve filled, making it easier to compare multiple time series.
+Seasonal plot: Helps visualize seasonal patterns in time series data.
+Lag plot: Shows the relationship between each data point and its lagged value, useful for detecting autocorrelation.
+Multivariate Data:
+
+Heatmap: Visualizes the relationship between two categorical variables or one categorical and one continuous variable.
+Pair plot: Grid of scatter plots showing the relationships between multiple pairs of variables.
+Parallel coordinates plot: Useful for visualizing relationships between multiple continuous variables.
+3D scatter plot: Extends the scatter plot to visualize relationships among three variables.
+Geospatial Data:
+
+Choropleth map: Colors geographical areas based on a variable of interest.
+Bubble map: Places bubbles on a map, with the size of the bubble representing a variable.
+Heatmap: Shows the density of points or events on a map.
+Flow map: Visualizes movement or flow between geographical locations.
+Text Data:
+
+Word cloud: Displays the frequency of words in a text corpus, with more frequent words appearing larger.
+Bar plot: Shows the frequency of top n words or phrases.
+Network plot: Visualizes relationships between words or documents.
+Topic modeling visualization: Represents topics extracted from text data and their relationships.
