@@ -1,0 +1,11 @@
+#pip install pandas
+
+import pandas as pd
+import os #Not so sure what this does
+#os.listdir() #Not so sure what this does
+
+df = pd.read_excel('AKI Dataset.xlsx')
+df.info
+df.shape
+df.head()
+df.tail()
