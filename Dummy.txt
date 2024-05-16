@@ -14,6 +14,11 @@ friends.reverse()
 print(friends)
 
 
+
+Mean, Median, Max, Min - Measures of central tendancy
+Variance, standard deviation - measures of dispersion
+
+
 Continuous Data:
 
 Histogram: Displays the distribution of continuous data.
