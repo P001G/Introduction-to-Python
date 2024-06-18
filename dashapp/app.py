@@ -30,7 +30,16 @@ fig3 = px.histogram(df, x='Official figure', title='Distribution of Official Fig
 
 app = dash.Dash(__name__)
 
-app.layout = html.Div()
+app.layout = html.Div([
+    #html.H1("Data visualization with dash"),
+    html.Div(
+        [
+            html.Div(dcc.Graph(figure  =  fig),style = {"width":"40%"}),
+            html.Div(dcc.Graph(figure = fig3),style = {"width":"40%"}),
+            ],style = {'display':'flex'}),
+    
+    html.Div(dcc.Graph(figure = fig2))
+],style = {"display":"inline"})
 
 if __name__ =='__main__':
     app.run_server(debug = True)
